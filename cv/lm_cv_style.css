@@ -1,0 +1,53 @@
+@font-face { /* Define a new font called LearningCurveProRegular */
+    font-family: 'LearningCurveProRegular';
+    src: url('fonts/LearningCurve_OT-webfont.eot');
+    src: url('fonts/LearningCurve_OT-webfont.eot?#iefix') format('embedded-opentype'),
+         url('fonts/LearningCurve_OT-webfont.woff') format('woff'),
+         url('fonts/LearningCurve_OT-webfont.ttf') format('truetype'),
+         url('fonts/LearningCurve_OT-webfont.svg#LearningCurveProRegular') format('svg');
+		 font-weight: normal;
+		 font-style: normal;
+}
+
+h1 /* using a personalized font via @font-face for h1
+
+*/
+{
+    font-family: 'LearningCurveProRegular', Arial, serif;
+	text-align: center;
+	text-shadow: 1px 1px #ff0000;
+	
+}
+
+/* Float the image and  to the right */
+.floatingimage
+{
+    float: right;
+}
+.below
+{
+    clear: both;
+}
+
+/*--- change the color of a text element and include a background image to the page---*/
+body
+{
+    background: url('images/snow.png');
+	padding: 2%;
+	text-align: justify;
+	color: #666666;
+}
+
+/*--- add borders to an element and change the color of a text element ---*/
+p.intro {
+    color: blue;
+	border: 1px solid black;
+    padding: 10px;
+    font-size: 92%;
+	text-align: center;
+}
+
+/*---add shadows to an element ---*/
+h2 {
+    text-shadow: 2px 2px #ff0000;
+}
